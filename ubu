@@ -36,7 +36,7 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 micro -plugin install quoter        
 micro -plugin install autoclose     
 micro -plugin install detectindent  
-sudo apt install ubuntu-restricted-extras vlc qbitorent gnome-tweaks gnome-shell-extension-manager eza zoxide micro git -y
+sudo apt install ubuntu-restricted-extras vlc qbittorrent gnome-tweaks gnome-shell-extension-manager eza zoxide micro git -y
 micro -plugin install quoter        
 micro -plugin install autoclose     
 micro -plugin install detectindent 
