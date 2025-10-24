@@ -1,0 +1,2 @@
+sudo nano /etc/modprobe.d/mousepoll.conf
+options usbhid mousepoll=2
