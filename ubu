@@ -33,7 +33,7 @@ sudo apt install --install-suggests gnome-software -y
 sudo apt install flatpak -y
 sudo apt install gnome-software-plugin-flatpak -y
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo   
-sudo apt install ubuntu-restricted-extras imagemagick vlc qbittorrent gnome-tweaks gnome-shell-extension-manager eza zoxide micro git -y
+sudo apt install ubuntu-restricted-extras curl imagemagick vlc qbittorrent gnome-tweaks gnome-shell-extension-manager eza zoxide micro git -y
 micro -plugin install quoter        
 micro -plugin install autoclose     
 micro -plugin install detectindent 
