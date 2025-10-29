@@ -35,6 +35,3 @@ micro -plugin install quoter
 micro -plugin install autoclose     
 micro -plugin install detectindent 
 bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
-sudo apt install pipx 
-pipx install pywal 
-pipx ensurepath
