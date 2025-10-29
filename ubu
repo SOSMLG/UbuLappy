@@ -31,7 +31,7 @@ sudo apt-get update && sudo apt-get install firefox -y
 sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo   
 sudo apt install ubuntu-restricted-extras curl  kde-config-flatpak  vlc qbittorrent eza zoxide micro git -y
-sudo apt purge nano
+sudo apt purge nano kate
 micro -plugin install quoter        
 micro -plugin install autoclose     
 micro -plugin install detectindent 
