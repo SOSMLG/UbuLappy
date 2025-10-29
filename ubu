@@ -30,7 +30,7 @@ Pin-Priority: 1000
 sudo apt-get update && sudo apt-get install firefox -y
 sudo apt install flatpak -y
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo   
-sudo apt install ubuntu-restricted-extras curl imagemagick kde-config-flatpak vlc qbittorrent gnome-tweaks  eza zoxide micro git -y
+sudo apt install ubuntu-restricted-extras curl imagemagick kde-config-flatpak pipx vlc qbittorrent gnome-tweaks  eza zoxide micro git -y
 micro -plugin install quoter        
 micro -plugin install autoclose     
 micro -plugin install detectindent 
