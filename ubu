@@ -2,7 +2,6 @@ sudo apt update
 sudo apt full-upgrade 
 sudo snap remove firefox
 sudo snap remove gtk-common-themes
-sudo snap remove gnome-42-2204
 sudo snap remove snapd-desktop-integration
 sudo snap remove snap-store
 sudo snap remove firmware-updater
@@ -29,11 +28,9 @@ Pin: origin packages.mozilla.org
 Pin-Priority: 1000
 ' | sudo tee /etc/apt/preferences.d/mozilla
 sudo apt-get update && sudo apt-get install firefox -y
-sudo apt install --install-suggests gnome-software -y
 sudo apt install flatpak -y
-sudo apt install gnome-software-plugin-flatpak -y
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo   
-sudo apt install ubuntu-restricted-extras curl imagemagick vlc qbittorrent gnome-tweaks gnome-shell-extension-manager eza zoxide micro git -y
+sudo apt install ubuntu-restricted-extras curl imagemagick kde-config-flatpak vlc qbittorrent gnome-tweaks  eza zoxide micro git -y
 micro -plugin install quoter        
 micro -plugin install autoclose     
 micro -plugin install detectindent 
