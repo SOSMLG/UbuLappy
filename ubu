@@ -35,5 +35,8 @@ sudo apt purge nano kate
 micro -plugin install quoter        
 micro -plugin install autoclose     
 micro -plugin install detectindent 
+pip install matplotlib
+pip install numpy 
+pip install scipy
 sudo apt autoremove
 bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
