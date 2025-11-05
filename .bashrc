@@ -168,10 +168,6 @@ alias ...='z ../..'
 alias ....='z ../../..'
 alias -- -='z -'     
 
-# Created by `pipx` on 2025-08-26 20:54:56
+
+# Created by `pipx` on 2025-11-05 08:18:08
 export PATH="$PATH:/home/sosmlg/.local/bin"
-#pywal
-x=`gsettings get org.gnome.desktop.background picture-uri | wc -c`
-y=$((x-2))
-wall_length=`gsettings get org.gnome.desktop.background picture-uri | cut -c 9-$y`
-wal -q -i $wall_length
